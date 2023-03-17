@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+.user-dropdown {
+    width: 120px;
+    background-color: #c1bdb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 90px;
+    border-radius: 10px;
+}
+
+.user-dropdown ul {
+    padding: 0%;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-links:first-child {
+    margin-bottom: 8px;
+}
