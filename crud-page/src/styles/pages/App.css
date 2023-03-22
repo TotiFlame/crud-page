@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.buttons-container {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    margin: 105px 0 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info-crud-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.info-crud {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #E9E9E9;
+}
+
+.card-header {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.App {
+    position: relative;
+    height: 100vh;
+    max-height: 100vh;
+}
